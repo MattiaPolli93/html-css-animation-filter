@@ -69,16 +69,18 @@
 }
 
 /* Exercise 6 */
-.ex-6-img {
-    transition: 1.5s;
-}
-
 .ex-6-img:hover {
     filter: grayscale(1);
 }
 
 /* Exercise 7 */
+.ex-7-img {
+    transition: 1.5s;
+}
 
+.ex-7-img:hover {
+    filter: sepia(0.5) blur(1px);
+}
 
 /* Exercise 8 */
 
