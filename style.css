@@ -83,7 +83,10 @@
 }
 
 /* Exercise 8 */
-
+.ex-8-img:hover {
+    filter: blur(2px) brightness(2);
+    border-radius: 15px;
+}
 
 /* Exercise 9 */
 .ex-9-img {
