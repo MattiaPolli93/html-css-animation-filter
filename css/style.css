@@ -119,17 +119,21 @@
 }
 
 .ex-11-icon:hover {
-    animation: spin-turn 1.5s ease-in;
+    animation: spin 2s linear infinite;
     animation-direction: reverse;
 }
 
-@keyframes spin-turn {
+@keyframes spin {
     0% {
         transform: rotate(0deg);
     }
 
     75% {
         transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
     }
 }
 
