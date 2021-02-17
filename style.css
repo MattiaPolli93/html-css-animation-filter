@@ -68,6 +68,21 @@
     width: 500px;
 }
 
+/* Exercise 6 */
+.ex-6-img {
+    transition: 1.5s;
+}
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+/* Exercise 7 */
+
+
+/* Exercise 8 */
+
+
 /* Exercise 9 */
 .ex-9-img {
     margin: 50px 100px;
