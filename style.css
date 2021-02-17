@@ -92,6 +92,13 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 1.5s;
+}
+
+.ex-9-img:hover {
+    filter: contrast(1.5) blur(1px);
+    border-radius: 15px;
+    transform: scale(1.5);
 }
 
 /* Exercise 10 */
