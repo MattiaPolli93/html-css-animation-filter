@@ -104,6 +104,14 @@
 /* Exercise 10 */
 .ex-10-icon {
     font-size: 60px;
+    animation: loop 1s running infinite;
+    animation-direction: reverse;
+}
+
+@keyframes loop {
+    0% {
+        transform: rotate(360deg);
+    }
 }
 
 /* Exercise 11 */
