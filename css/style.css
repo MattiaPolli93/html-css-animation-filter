@@ -167,6 +167,40 @@
 }
 
 /* Exercise 12 */
+.ex-12-button:hover .ex-12-top-white {
+  animation: upperWhiteSpace 1.5s linear infinite;
+}
 
+@keyframes upperWhiteSpace {
+    0%{
+      left: 5%;
+    }
+
+    50% {
+      left: 60%;
+    }
+
+    100% {
+      left: 5%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: lowerWhiteSpace 1.5s linear infinite;
+}
+
+@keyframes lowerWhiteSpace {
+    0%{
+      right: 5%;
+    }
+
+    50% {
+      right: 60%;
+    }
+    
+    100% {
+      right: 5%;
+    }
+}
 
 /* Exercise 13 */
